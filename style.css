@@ -1,0 +1,70 @@
+html,
+body{
+  margin: 0 auto;
+  padding: 0;  
+}
+.container{
+  width: 970px; height: 250px;
+  position: absolute;
+  background-color: #000;
+  cursor: pointer;
+  overflow: hidden;
+}
+#logo_intro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -280px;
+  top: 10px;
+}
+#second_ribbon{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px; left: 0px;
+}
+#band_intro_anim{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px; left: 0px;
+}
+#text_anim{
+  position: absolute;
+  width: 96%;
+  height: 96%;
+  right: 15px;
+  top: 5px;
+}
+
+
+
+#band_anim{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -183px;
+}
+
+#small_logo_anim{
+  position: absolute;
+  width: 16%;
+  height: 16%;
+  right: 200px;
+  top: 20px;
+}
+#block_party_logo_anim{
+  position: absolute;
+  width: 18%;
+  height: 18%;
+  right: 77px;
+  top: 18px;
+  opacity: 0;
+}
+#cta_anim{
+  position: absolute;
+  width: 16%;
+  height: 16%;
+  right: 153px;
+  bottom: 15px;
+}
